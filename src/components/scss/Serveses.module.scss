@@ -1,0 +1,122 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 75px;
+  .title {
+    font-size: 45px;
+    color: blue;
+  }
+  .demolitionAndDismantlingTitle {
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    .quotesYellow {
+      color: yellow;
+      font-size: 80px;
+      padding-right: 5px;
+    }
+    .titleContentBlue {
+      color: blue;
+    }
+  }
+  .lists {
+    display: flex;
+    .list {
+      font-size: 25px;
+      color: blue;
+      .listElem {
+        list-style: none;
+        margin: 35px 0;
+        text-align: left;
+        &::before {
+          content: "\2666";
+          color: yellow;
+          font-size: 25px;
+          display: inline-block;
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+  .construction {
+    width: 100%;
+    .constructionTitle {
+      font-size: 40px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      .quotesBlue {
+        color: blue;
+        font-size: 80px;
+        padding-right: 5px;
+      }
+      .titleContentBlue {
+        color: blue;
+      }
+    }
+    .flex {
+      display: flex;
+
+      justify-content: space-between;
+      .list {
+        font-size: 25px;
+        color: blue;
+        .listElem {
+          list-style: none;
+          margin: 35px 0;
+          text-align: left;
+          &::before {
+            content: "\2666";
+            color: blue;
+            font-size: 25px;
+            display: inline-block;
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  .engineering {
+    width: 100%;
+    .engineeringTitle {
+      font-size: 40px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      .quotesYellow {
+        color: yellow;
+        font-size: 80px;
+        padding-right: 5px;
+      }
+      .titleContentBlue {
+        color: blue;
+      }
+    }
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      .img {
+        width: 400px;
+      }
+      .list {
+        font-size: 25px;
+        color: blue;
+        .listElem {
+          list-style: none;
+          margin: 35px 0;
+          text-align: left;
+          &::before {
+            content: "\2666";
+            color: yellow;
+            font-size: 25px;
+            display: inline-block;
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}

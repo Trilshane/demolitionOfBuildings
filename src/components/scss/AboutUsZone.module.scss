@@ -1,0 +1,20 @@
+.container {
+  height: 100vh;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .title {
+    font-size: 45px;
+    text-align: center;
+    color: blue;
+  }
+  .aboutUs {
+    display: flex;
+    justify-content: center;
+    .content {
+      font-size: 25px;
+      width: 750px;
+    }
+  }
+}
