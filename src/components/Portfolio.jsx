@@ -5,9 +5,11 @@ import img3 from "../img/portfolio3.jpg";
 
 import styles from "./scss/Portfolio.module.scss";
 
+/*Секция слайдера, а так же то что в этом слайдере есть*/
+
 const Portfolio = () => {
   return (
-    <div className={styles.container}>
+    <div id="portfolio" className={styles.container}>
       <h1 className={styles.title}>Наше портфолио</h1>
       <Carusel>
         <div className={styles.elementContainer}>

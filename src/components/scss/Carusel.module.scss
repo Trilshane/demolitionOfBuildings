@@ -4,6 +4,9 @@
   display: flex;
   align-items: center;
   position: relative;
+  @media screen and (max-width: 850px) {
+    height: 100%;
+  }
   .arrow {
     cursor: pointer;
     position: absolute;
@@ -18,9 +21,21 @@
   }
   .arrowLeft {
     left: 2%;
+    @media screen and (max-width: 650px) {
+      top: 20%;
+    }
+    @media screen and (max-width: 50px) {
+      top: 15%;
+    }
   }
   .arrowRight {
     right: 2%;
+    @media screen and (max-width: 650px) {
+      top: 20%;
+    }
+    @media screen and (max-width: 50px) {
+      top: 15%;
+    }
   }
   .window {
     height: 100%;

@@ -1,10 +1,12 @@
+import img from "../img/about-img.webp";
+
 import styles from "./scss/AboutUsZone.module.scss";
 
-import img from "../img/about-img.webp";
+/* Информация о компании */
 
 const AboutUsZone = () => {
   return (
-    <div className={styles.container}>
+    <div id="about" className={styles.container}>
       <h1 className={styles.title}>Коротко о компании «Техно-Диггер»</h1>
       <div className={styles.aboutUs}>
         <p className={styles.content}>
@@ -16,7 +18,7 @@ const AboutUsZone = () => {
           "Техно-Диггер" является снос и демонтаж различного типа зданий,
           строений и сооружений.
         </p>
-        <img src={img} alt="img" />
+        <img className={styles.img} src={img} alt="img" />
       </div>
     </div>
   );

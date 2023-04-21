@@ -2,7 +2,8 @@ import TitleZone from "./components/TitleZone";
 import AboutUsZone from "./components/AboutUsZone";
 import Serveses from "./components/Serveses";
 import Portfolio from "./components/Portfolio";
-import "./App.css";
+import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <AboutUsZone />
       <Serveses />
       <Portfolio />
+      <Contacts />
+      <Footer />
     </>
   );
 }

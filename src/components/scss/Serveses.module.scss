@@ -4,15 +4,22 @@
   align-items: center;
   justify-content: center;
   margin: 0 75px;
+
   .title {
     font-size: 45px;
     color: blue;
+    @media screen and (max-width: 800px) {
+      font-size: 30px;
+    }
   }
   .demolitionAndDismantlingTitle {
     font-size: 40px;
     font-weight: bold;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 800px) {
+      font-size: 25px;
+    }
     .quotesYellow {
       color: yellow;
       font-size: 80px;
@@ -24,9 +31,19 @@
   }
   .lists {
     display: flex;
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+      align-items: center;
+    }
     .list {
       font-size: 25px;
       color: blue;
+      img {
+        width: 400px;
+        @media screen and (max-width: 900px) {
+          max-width: 90%;
+        }
+      }
       .listElem {
         list-style: none;
         margin: 35px 0;
@@ -43,11 +60,17 @@
   }
   .construction {
     width: 100%;
+    @media screen and (max-width: 900px) {
+      margin-top: 20px;
+    }
     .constructionTitle {
       font-size: 40px;
       font-weight: bold;
       display: flex;
       align-items: center;
+      @media screen and (max-width: 800px) {
+        font-size: 25px;
+      }
       .quotesBlue {
         color: blue;
         font-size: 80px;
@@ -59,11 +82,26 @@
     }
     .flex {
       display: flex;
-
       justify-content: space-between;
+      @media screen and (max-width: 900px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      img {
+        width: 400px;
+        @media screen and (max-width: 900px) {
+          max-width: 90%;
+        }
+      }
+
       .list {
         font-size: 25px;
         color: blue;
+        @media screen and (max-width: 900px) {
+          width: 90%;
+        }
+
         .listElem {
           list-style: none;
           margin: 35px 0;
@@ -81,11 +119,18 @@
   }
   .engineering {
     width: 100%;
+    @media screen and (max-width: 900px) {
+      margin-top: 60px;
+    }
     .engineeringTitle {
       font-size: 40px;
       font-weight: bold;
       display: flex;
       align-items: center;
+      @media screen and (max-width: 800px) {
+        margin-bottom: 40px;
+        font-size: 25px;
+      }
       .quotesYellow {
         color: yellow;
         font-size: 80px;
@@ -98,12 +143,23 @@
     .flex {
       display: flex;
       justify-content: space-between;
+      @media screen and (max-width: 900px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
       .img {
         width: 400px;
+        @media screen and (max-width: 900px) {
+          max-width: 90%;
+        }
       }
       .list {
         font-size: 25px;
         color: blue;
+        @media screen and (max-width: 900px) {
+          width: 90%;
+        }
         .listElem {
           list-style: none;
           margin: 35px 0;

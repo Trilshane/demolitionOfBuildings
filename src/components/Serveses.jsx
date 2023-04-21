@@ -4,9 +4,11 @@ import img3 from "../img/kaska.webp";
 
 import styles from "./scss/Serveses.module.scss";
 
+/*Секция услуг которые предоставляет компания */
+
 const Serveses = () => {
   return (
-    <div className={styles.container}>
+    <div id="servises" className={styles.container}>
       <h1 className={styles.title}>Чем мы занимаемся?</h1>
       <div className={styles.demolitionAndDismantling}>
         <div className={styles.demolitionAndDismantlingTitle}>

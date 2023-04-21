@@ -1,9 +1,14 @@
 import { Children, cloneElement, useEffect, useState } from "react";
+
 import styles from "./scss/Carusel.module.scss";
 
+/* Слайдер */
+
 const Carusel = ({ children }) => {
-  const [pages, setpages] = useState([]);
-  const [offset, setOffset] = useState(0);
+  const [pages, setpages] = useState([]); //стейт страниц
+  const [offset, setOffset] = useState(0); //стейт позиции слайдера
+
+  /* функции которые определют в какую сторону произойдет движение слайдера, а так же блок если нет контента дальше */
 
   const handleLeftArrowClick = () => {
     setOffset((currentOffset) => {
